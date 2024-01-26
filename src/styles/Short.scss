@@ -1,0 +1,15 @@
+.shortcut{
+    display: flex;
+    flex-direction: column;
+    .react{
+       display: flex;
+       align-items: center;
+       gap: 1.5rem;
+      
+       img{
+          width: 25px;
+          margin-left:2px ;
+ 
+       }
+    }
+ }

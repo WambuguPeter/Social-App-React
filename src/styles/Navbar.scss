@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px;
+    border-bottom: 1px solid rgb(243, 234, 234);
+    .nav-logo {
+      display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+      width: 20%;
+      align-items: center;
+      img {
+        max-height: 30px;
+        max-width: 30px;
+      }
+    }
+    .nav-body {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+      .nav-body-right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .message {
+          max-width: 25px;
+        }
+        .userAvator {
+          display: flex;
+          align-items: center;
+        }
+      }
+      .input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1px solid rgb(229, 229, 229);
+        border-radius: 20px;
+        img:hover{
+           cursor: pointer;
+        }
+        input {
+          border: none;
+          margin-left:px;
+          outline: none;
+        }
+      }
+    }
+  }
+  
