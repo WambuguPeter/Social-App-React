@@ -4,7 +4,7 @@
     flex-direction: row;
     width: 100%;
     overflow: hidden;
-    margin: 10px;
+    margin: 0px;
     border-bottom: 1px solid rgb(243, 234, 234);
     .nav-logo {
       display: flex;
@@ -23,6 +23,24 @@
       flex-direction: row;
       justify-content: space-between;
       width: 80%;
+
+      .input1{        
+        display: flex;
+        align-items: center;
+        width: 30%;
+        height: 40px;
+        border: 1px solid rgb(72, 61, 61);
+        border-radius: 20px;
+      }
+      img:hover{
+        cursor: pointer;
+     }
+     input {          
+      border: none;
+      margin-left:10px;
+      outline: none;
+    }
+
       .nav-body-right {
         display: flex;
         align-items: center;
@@ -34,22 +52,9 @@
           display: flex;
           align-items: center;
         }
-      }
-      .input {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        border: 1px solid rgb(229, 229, 229);
-        border-radius: 20px;
-        img:hover{
-           cursor: pointer;
-        }
-        input {
-          border: none;
-          margin-left:px;
-          outline: none;
+        .avat{
+          border-radius: 50%;
         }
       }
-    }
   }
-  
+}

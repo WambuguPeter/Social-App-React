@@ -1,7 +1,7 @@
 import "../styles/Navbar.scss";
 import logo from "../assets/logo.png";
 import Notification from "../assets/notification.png";
-import Avatar from '../assets/Avatar.png'
+import Avatar1 from '../assets/Avatar1.jpg'
 import Chevron from '../assets/chevron-down.png'
 import message from '../assets/message.png'
 import search from '../assets/search.png'
@@ -14,7 +14,7 @@ function Navbar() {
       </div>
 
       <div className="nav-body">
-        <div  className="input">
+        <div  className="input1">
           <img src={search} alt="" srcset="" />
           <input type="text" placeholder="search..." />
 
@@ -24,7 +24,7 @@ function Navbar() {
           <img className="message" src={message} alt="nopic" srcset="" />
           <img src={Notification} alt="nopic"/>
           <div className="userAvator">
-            <img src={Avatar} alt="nopic" />
+            <img className="avat" src={Avatar1} alt="nopic" />
             <img src={Chevron} alt="" srcset="" />
           </div>
         </div>

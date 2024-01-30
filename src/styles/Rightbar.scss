@@ -1,0 +1,34 @@
+.imagecomp{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: right;
+    background-color: blue;
+    gap: 1.5rem;}
+    img{
+        width: 25px;
+        margin-left:2px ;
+        height: 25px;
+        align-items: center;
+     }
+    
+.seeAll{
+    border: none;
+    background-color: #fff;
+}
+.seeAll:hover {
+    border-color: #191a20;
+}
+
+.side-profile{
+    display: flex;
+    align-items: center;
+
+    .side-profile-text{    
+        flex-direction: column;
+        margin-inline: 20px;
+        line-height: 1px;
+        text-wrap: wrap;
+     }
+  }
+    

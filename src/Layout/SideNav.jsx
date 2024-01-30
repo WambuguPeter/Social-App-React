@@ -1,5 +1,5 @@
 import "../styles/SideNav.scss";
-import Avatar from "../assets/Avatar.png";
+import Avatar1 from "../assets/Avatar1.jpg";
 import Menu from "../Components/Menu";
 import Short from "../Components/Short";
 function SideNav() {
@@ -7,9 +7,9 @@ function SideNav() {
     <div className="sidenav">
       {/* side profile */}
       <div className="side-profile">
-        <img src={Avatar} alt="nopic" />
+        <img className="avat" src={Avatar1} alt="nopic" />
         <div className="side-profile-text">
-          <h5>Angela Lee</h5>
+          <h5>Jonathan</h5>
           <h4>@tweet</h4>
         </div>
       </div>
@@ -17,7 +17,7 @@ function SideNav() {
         <Menu />
       </div>
       <div className="sidenav-suggestions">
-        
+      <h4>SHORTCUTS</h4>
         <Short/> </div>
     </div>
   );

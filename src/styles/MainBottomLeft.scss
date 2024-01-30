@@ -1,0 +1,38 @@
+.left-main-buttom{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;                
+    padding: 10px;
+    border-radius: 10px;                
+    padding-top: 0;
+
+    .addressDetails{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        .detail{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: flex-start;
+        }           
+      
+    }
+    .headers{
+        display: flex;
+        align-items: center;
+        gap: 8rem;
+        p{
+            color: blue;
+        }
+    }
+    .imgs{
+        display: flex;           
+        gap: 0.5rem;
+        img{
+            width: 130px;
+            height: 70px;
+        }
+    }
+}

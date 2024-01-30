@@ -5,7 +5,8 @@
     height: 100vh;
     border-right: 1px solid rgb(245, 239, 239);
     width: 15%;
-    margin: 10px;
+    margin-left: 10px;
+    flex: 1;
     h4{
        font-size: 10px;
     }
@@ -13,9 +14,12 @@
  .side-profile{
     display: flex;
     align-items: center;
-    .side-profile-text{
-    
-       flex-direction: column;
+    .avat{
+      border-radius: 50%;
+    }
+
+    .side-profile-text{    
+       flex-direction: row;
        margin-inline: 20px;
        line-height: 1px;
     }

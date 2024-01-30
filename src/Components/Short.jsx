@@ -1,27 +1,25 @@
 import "../styles/Short.scss";
-import first from "../assets/first.jpg";
-import second from "../assets/second.jpg";
-import third from "../assets/third.jpg";
+import first from "../assets/design1.jpg";
+import second from "../assets/design2.jpg";
+import third from "../assets/design3.jpg";
 
 function Short(){
    return(
       <>
-            <div className="shortcut">
-
-               <h4>SHORTCUTS</h4>
+            <div className="shortcut">               
          <div className="react">
             <img src={first} alt="noppic"  />
-            <h4>Website Design</h4>
+            <h5>Website Design</h5>
          </div>
 
          <div className="react">
             <img src={third} alt="nopic"  />
-            <h4>Mobile Design</h4>
+            <h5>Mobile Design</h5>
          </div>
          
          <div className="react">
             <img src={second} alt="nopic"  />
-            <h4>Product Design</h4>
+            <h5>Product Design</h5>
          </div>
       </div>
 </>
