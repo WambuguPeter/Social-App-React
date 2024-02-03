@@ -1,17 +1,37 @@
-.imagecomp{
+
+.rightbar{
     display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: right;
-    background-color: blue;
-    gap: 1.5rem;}
-    img{
-        width: 25px;
-        margin-left:2px ;
-        height: 25px;
+    width: 200px;
+    flex-direction: column;
+    margin-right: 15px;
+    padding-right: 10px;   
+
+    .headers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-     }
+
+        p{
+            color: blue;
+        }
     
+    }
+
+    .side-profile{
+        display: flex;
+        align-items: center;
+        .side-profile-text{            
+           flex-direction: column;
+           margin-inline: 20px;
+           line-height: 1px;
+           img{
+            width: 30px;
+            height: 30px;
+           }
+        }
+     }
+}
 .seeAll{
     border: none;
     background-color: #fff;
@@ -20,15 +40,3 @@
     border-color: #191a20;
 }
 
-.side-profile{
-    display: flex;
-    align-items: center;
-
-    .side-profile-text{    
-        flex-direction: column;
-        margin-inline: 20px;
-        line-height: 1px;
-        text-wrap: wrap;
-     }
-  }
-    

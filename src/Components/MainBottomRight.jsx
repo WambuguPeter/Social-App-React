@@ -50,6 +50,10 @@ const MainBottomRight = () => {
               <div className="postphotos">
                 <img src={photo3} alt="nopic" />
                 <img src={photo4} alt="nopic" />
+                <img src={photo3} alt="nopic" />
+                <img src={photo3} alt="nopic" />
+                <img src={photo4} alt="nopic" />
+                <img src={photo3} alt="nopic" />
               </div>
               <div className="postfeedbacks">
                 <div className="feedbacks">

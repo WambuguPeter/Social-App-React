@@ -1,0 +1,80 @@
+.EventsPage{
+    height: 90vh;
+    width: 150vh;
+    background-color: rgb(252, 243, 236);
+    overflow: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        .leftSide{
+            display: flex;            
+            gap: 2rem;
+            span{
+                font-size: 20px;
+                
+            }
+        }
+        .rightSide{
+            display: flex;
+            align-items: center;
+        }
+    }
+    .list{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 10px;        
+        justify-content: space-evenly;
+        .eventCard{
+            display: flex;
+            flex-direction: column;
+            width: 45%;            
+
+            .eventDetail{               
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+                .eventName{
+                    h4{
+                        margin-bottom: 1px;
+                    }
+                }
+                .date{   
+                    display: flex;                 
+                    align-items: center;
+                    span{
+                        font-weight: bold;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .people{
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+            .location{
+                display: flex;
+                margin: 15px;                
+                align-items: center;
+            }
+            .Register-btn{
+                display: flex;
+                justify-content: center;
+                color: blue;
+                font-size: 16px;
+                font-weight: bold;
+                border: none;
+                margin-bottom: 35px;
+            }
+        }
+    }
+
+}

@@ -1,28 +1,16 @@
 .sidenav{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    height: 100vh;
+    flex-direction: column;   
+    gap: 10px;
+    height: 90vh;
     border-right: 1px solid rgb(245, 239, 239);
-    width: 15%;
+    width: 190%;
     margin-left: 10px;
-    flex: 1;
+    background-color: rgb(217, 233, 248);
+        
     h4{
        font-size: 10px;
     }
-    
- .side-profile{
-    display: flex;
-    align-items: center;
-    .avat{
-      border-radius: 50%;
-    }
 
-    .side-profile-text{    
-       flex-direction: row;
-       margin-inline: 20px;
-       line-height: 1px;
-    }
- }
     
  }

@@ -1,24 +1,30 @@
 .Menu {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+    margin-left: 10px;    
+    text-decoration: none;
+
+     
     .menu-left {
       align-items: center;
       display: flex;
-      font-size: 10px;
-      gap: 1.5rem;
+      
+      gap: 2rem;
       img {
-        width: 20px;
+        width: 25px;
       }
       span{
         display: flex;
+        
         justify-content: center;
         color: aliceblue;
         align-items: center;
         background-color: rgb(230, 57, 137);
-        width: 20px;
-        height: 15px;
-        border-radius: 30%;
+        width: 25px;
+        height: 25px;
+        border-radius: 45%;
+        margin-right: 0px;
         
       }
     }

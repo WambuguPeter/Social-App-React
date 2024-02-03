@@ -1,0 +1,59 @@
+.leftmain{        
+    background-repeat: no-repeat;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 90vh;
+    width: 150vh;
+    margin-left: 10px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+               
+    .mainimg{
+        height: 30%;
+        width: 100%;
+        border-radius: 10px;            
+    }
+    .avat{
+        width: 70px;
+
+        img{
+            border-radius: 5%;
+            width: 80px;
+            height: 60px;
+            margin-left: 30px;
+            margin-top: -50px;
+        }        
+    }
+    .profile-data{
+        display: flex;
+        margin-left: 20px;
+        gap: 1rem;
+        
+        .profimg{
+            h4{
+                margin-bottom: 1px;
+            }            
+        }
+        p{
+            font-size: medium;
+            font-weight: bold;
+        }        
+    }
+    
+    .prodetails{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    button{
+        border: none;
+    }
+    .main-buttom{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        gap: 0.5rem;  
+    }
+}

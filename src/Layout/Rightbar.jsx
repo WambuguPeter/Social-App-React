@@ -1,75 +1,30 @@
 import '../styles/Rightbar.scss'
-import Avatar from "../assets/Avatar.png";
-import design1 from '../assets/design1.jpg'
-import design2 from '../assets/design2.jpg'
-import design3 from '../assets/design3.jpg'
-import Avatar5 from '../assets/Avatar5.png'
-import Avatar6 from '../assets/Avatar6.png'
-import Avatar7 from '../assets/Avatar7.png'
+import Contacts from '../Components/Contacts';
+import Designs from '../Components/Designs';
 import wd from '../assets/WD.png'
 import uo from '../assets/UO.png'
 import de from '../assets/DE.png'
 const Rightbar = () => {
   return (
    <>
-   <div className="rightnav">
-      <div className="your-part">
+   <div className="rightbar">
+      <div className="Designs">
         <div className="headers">
-        <h5>YOUR PART</h5>
-        <button className='seeAll'>
-        <p>See all</p>
-        </button>
-        </div> 
-
-        <div className="side-profile">        
-        <img src={design1} alt="nopic" />
-        <div className="side-profile-text">
-          <h5>Website Design</h5>          
+          <h5>YOUR PART</h5>
+          <button className='seeAll'>
+            <p>See all</p>
+          </button>
         </div>
-      </div>
-      <div className="side-profile">        
-        <img src={design2} alt="nopic" />
-        <div className="side-profile-text">
-          <h5>Mobile Design</h5>          
-        </div>
-      </div>
-      <div className="side-profile">        
-        <img src={design3} alt="nopic" />
-        <div className="side-profile-text">
-          <h5>Product Design</h5>          
-        </div>
-      </div> 
+        <Designs />
+      
         
       </div>
+      <div className="contacts">
+        <Contacts/>
+        </div>
+      
       <div className="headers">
-        <h5>CONTACT</h5>
-        <button className='seeAll'>
-        <p>See all</p>
-        </button>
-             
-        </div>     
-      <div className="side-profile">        
-        <img src={Avatar7} alt="nopic" />
-        <div className="side-profile-text">
-          <h5>James Njau</h5>          
-        </div>
-      </div> 
-
-      <div className="side-profile">        
-        <img src={Avatar6} alt="nopic" />
-        <div className="side-profile-text">
-          <h5>Brian Kerio</h5>          
-        </div>
-      </div> 
-
-      <div className="side-profile">        
-        <img src={Avatar5} alt="nopic" />
-        <div className="side-profile-text">
-          <h5>Penny wachira</h5>          
-        </div>
-      </div>
-      <div className="headers">
-        <h5>YOUR PART</h5>
+        <h5>GROUPS</h5>
         <button className='seeAll'>
         <p>See all</p>
         </button>
