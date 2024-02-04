@@ -7,6 +7,7 @@
   scroll-behavior: smooth;
   flex-wrap: wrap;
   flex-direction: row;
+  background-color: aliceblue;
   .users{
     display: flex;
     margin-left: 10px;
@@ -32,11 +33,11 @@
   }
   
   .user-avatar {
-    border: 2px solid #333; /* Example border for the user's avatar */
+    border: 2px solid #333; 
   }
   
   .avatar.has-post {
-    border: 2px solid blue; /* Blue border for friends with a post */
+    border: 2px solid blue; 
   }
       
 }

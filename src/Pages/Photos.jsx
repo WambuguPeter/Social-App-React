@@ -6,10 +6,7 @@ import ice from '../assets/icecreem.png'
 import smile from '../assets/personSmile.png'
 
 
-const Photos = () => {
-
-  // list=[{fruit}]
-
+const Photos = () => {  
   return (
     <div className='PhotosPage' >
       <div className="heads">

@@ -8,20 +8,8 @@ import Avatar5 from '../assets/Avatar -3.png'
 import Avatar6 from '../assets/Avatar-4.png'
 import Avatar7 from '../assets/Avatar-5.png'
 import Avatar8 from '../assets/Avatar-6.png'
-import data from '../assets/data.json'
-import { useState, useEffect } from 'react'
 
-
-
-const Timeline = () => {
-  // const [userData, setUserData] = useState(null);
-  // const [friendsData, setFriendsData] = useState([]);
-
-  // useEffect(() => {
-  //   setUserData(data.user); // Set user data from the imported JSON
-  //   setFriendsData(data.friends); // Set friends data from the imported JSON
-  // }, []);
-  
+const Timeline = () => {  
   return (
     <div className='Timeline-page' >
       <div className="users">
@@ -132,21 +120,7 @@ const Timeline = () => {
         </div>
         
       </div>
-
-      {/* Timeline */}
-     {/* Display user's avatar
-     {userData && (
-        <div className={`avatar ${userData.posts.length > 0 ? 'has-post' : ''}`} style={{ backgroundImage: `url(${userData.avatar})` }}></div>
-      )}
-
-      {/* Display avatars of friends */}
-      {/* {friendsData.map((friend) => (
-        <div
-          key={friend.id}
-          className={`avatar ${friend.posts.length > 0 ? 'has-post' : ''}`}
-          style={{ backgroundImage: `url(${friend.avatar})` }}
-        ></div>
-      ))}  */}
+    
 
     <MainBottomRight />
     </div>

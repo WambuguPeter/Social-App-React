@@ -1,6 +1,5 @@
 import '../styles/PageStlyles/Videos.scss'
 import DifferentVideos from '../Components/DifferentVideos'
-import RecentActivities from '../Components/RecentActivities'
 import RecentVideo from '../Components/RecentVideo'
 import Search  from '../assets/search.png'
 

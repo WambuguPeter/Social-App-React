@@ -12,8 +12,9 @@ import Videos from '../Pages/Videos'
 const MainContent = () => {
   return (
     <div className='MainContent'>
+      <MainLeft />
        <Routes>          
-          <Route path='/' element={<MainLeft />} />          
+          <Route path='/mainleft' element={<MainLeft />} />          
           <Route path="/friends" element={<Friends />} />          
           <Route path="events" element={<Events />} />          
           <Route path="groups" element={<Groups />} />          

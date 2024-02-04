@@ -1,8 +1,8 @@
 import "../styles/Navbar.scss";
 import Notification from "../Components/Notification";
+import { BiMenu } from 'react-icons/bi';
 import { useState } from "react";
 import logo from "../assets/logo.png";
-import menu from '../assets/menu-2.png'
 import Notify from "../assets/notification.png";
 import Avatar1 from '../assets/Avatar1.jpg'
 import Chevron from '../assets/chevron-down.png'
@@ -16,7 +16,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src={menu} alt="nopic" />
+      <button >
+        <BiMenu />
+      </button>
         <img src={logo} alt="nopic" />
         <h2>Social-M-APP</h2>
       </div>

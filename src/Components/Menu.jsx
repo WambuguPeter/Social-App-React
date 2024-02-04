@@ -7,12 +7,7 @@ import TIMELINE from "../assets/TIMELINE.png";
 import VIDEOS from "../assets/VIDEOS.png";
 import { NavLink } from "react-router-dom";
 function Menu() {
-  const Menu = [
-    {
-      title: "Home",
-      icon: TIMELINE,
-      path: "/"
-    },
+  const Menu = [    
     {
       title: "Timeline",
       icon: TIMELINE,
