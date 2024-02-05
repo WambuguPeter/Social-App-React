@@ -1,6 +1,7 @@
 import "../styles/Navbar.scss";
 import Notification from "../Components/Notification";
 import { BiMenu } from 'react-icons/bi';
+import { useNavigate} from 'react-router-dom'
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import Notify from "../assets/notification.png";
@@ -13,12 +14,25 @@ function Navbar() {
 
   const toggleNotificationForm = () => {
     setShowNotificationForm(!showNotificationForm)}
+
+    
+  const [isOpen, setIsOpen] = useState(false);
+    
+  const toggleDropdown = () => {
+        setIsOpen(!isOpen);
+      };
+  const navigate = useNavigate();
+  const register =() =>{
+    navigate("/")
+  }
   return (
     <div className="navbar">
       <div className="nav-logo">
-      <button >
-        <BiMenu />
-      </button>
+        <button >
+          <BiMenu />
+        </button>
+     
+      
         <img src={logo} alt="nopic" />
         <h2>Social-M-APP</h2>
       </div>
@@ -36,7 +50,15 @@ function Navbar() {
           {showNotificationForm && <Notification onClose={toggleNotificationForm}/>}
           <div className="userAvator">
             <img className="avat" src={Avatar1} alt="nopic" />
-            <img src={Chevron} alt="" srcset="" />
+            <img src={Chevron} onClick={register}/>
+            {/* Dropdown */}
+            {isOpen && (
+              <select className="dropdown" onClick={register} >
+                <option value="Logout" onClick={register} >Logout</option>
+                {/* <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option> */}
+              </select>
+            )}
           </div>
         </div>
       </div>

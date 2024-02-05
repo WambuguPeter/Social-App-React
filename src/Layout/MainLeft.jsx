@@ -7,6 +7,7 @@ const MainLeft = () => {
   return (
     <div>
         <div className="leftmain">        
+        <button className='edit-profile' >Edit Proile</button>
         <img className='mainimg' src={bg} alt="nopic" />
         <div className='avat'>
           <img src={avatar1} alt="nopic" />
