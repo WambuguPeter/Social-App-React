@@ -1,13 +1,15 @@
-import '../styles/Rightbar.scss'
+import React from 'react'
+import '../styles/RightSideBar.scss'
 import Contacts from '../Components/Contacts';
 import Designs from '../Components/Designs';
 import wd from '../assets/WD.png'
 import uo from '../assets/UO.png'
 import de from '../assets/DE.png'
-const Rightbar = () => {
+
+const RightSideBar = () => {
   return (
-   <>
-   {/* <div className="rightbar">
+    // <div className='RightSideBar' >RightSideBar</div>
+    <div className="RightSideBar">
       <div className="Designs">
         <div className="headers">
           <h5>YOUR PART</h5>
@@ -47,10 +49,8 @@ const Rightbar = () => {
           <h5>Web Designer</h5>          
         </div>
       </div> 
-    </div> */}
-   
-    </>
+    </div>
   )
 }
 
-export default Rightbar
+export default RightSideBar

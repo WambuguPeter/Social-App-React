@@ -6,8 +6,9 @@ import PHOTOS from "../assets/PHOTOS.png";
 import TIMELINE from "../assets/TIMELINE.png";
 import VIDEOS from "../assets/VIDEOS.png";
 import { NavLink } from "react-router-dom";
+
 function Menu() {
-  const Menu = [    
+  const menuItems = [    
     {
       title: "Timeline",
       icon: TIMELINE,
@@ -23,7 +24,6 @@ function Menu() {
       icon: GROUPS,
       path: "/groups"
     },
-
     {
       title: "Videos",
       icon: VIDEOS,
@@ -41,33 +41,36 @@ function Menu() {
       path: "/events"
     },
   ];
+
   return (
     <>
-    <h4>MENU</h4>
-    <div className="Menu">
-      {Menu &&
-        Menu.map((item, index) => {
-          return (
-            <div className="menu">
-              <NavLink
-              key={index}
+      <h4>MENU</h4>
+      <div className="menu">
+        {menuItems.map((item, index) => (
+          <div className="menu-item" key={index}>
+            <NavLink
               to={item.path}
-              className='menuIcons'
-              activeClassName="active">
+              className="menu-link"
+              activeClassName="active"
+            >
               <div className="menu-left">
-                <img src={item.icon} alt="" srcset="" />
-                {item.title}
-                <span style={{ backgroundColor: item.value ? ' rgb(230, 57, 137)' : 'transparent' }}>
-                  {item.value}
+                <img src={item.icon} alt={item.title} />
+                <p className="titles">{item.title}</p>
+                {item.value && (
+                  <span
+                    className="badge"
+                    style={{ backgroundColor: "rgb(230, 57, 137)" }}
+                  >
+                    {item.value}
                   </span>
-
+                )}
               </div>
-              </NavLink>
-            </div>
-          );
-        })}
-    </div>
-  </>
+            </NavLink>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
+
 export default Menu;

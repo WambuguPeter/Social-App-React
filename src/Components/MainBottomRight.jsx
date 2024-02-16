@@ -13,13 +13,12 @@ import avatar1 from '../assets/Avatar1.jpg'
 
 const MainBottomRight = () => {
   return (
-    
-     <div className="right-main-buttom">
-            <div className="onUrMind">
+  <div className="right-main-buttom">
+        <div className="onUrMind">
             <div  className="input2">
-              <img className='avatar1' src={avatar1} alt="nopic" srcset={avatar1} />
+              <img className='avatar1' src={avatar1} alt="nopic"/>
               <input className="put" type="text" placeholder="What on your mind?" />
-          </div>
+            </div>
           <div className="preview">
             <div className="previewdata">
               <img src={video} alt="nopic" />
@@ -34,7 +33,7 @@ const MainBottomRight = () => {
               <span>Activity</span>
             </div>
           </div>
-            </div>
+        </div>
             <div className="posted">
               <div className="postUser">
                 <img className='Avat' src={avatar1} alt="nopic" />
@@ -77,7 +76,7 @@ const MainBottomRight = () => {
 
               </div>
             </div>            
-            </div>
+    </div>
    
   )
 }

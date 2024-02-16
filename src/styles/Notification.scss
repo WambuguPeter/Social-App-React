@@ -63,4 +63,16 @@
     
 }
 
+@media screen and (max-width:425px) {
+    .container{
+        h2{
+            font-size: 20px;
+
+        }
+        .items{
+            gap: 1rem;
+        }
+    }
+}
+
 

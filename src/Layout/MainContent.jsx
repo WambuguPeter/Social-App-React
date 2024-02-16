@@ -1,6 +1,6 @@
 import '../styles/MainContent.scss'
 import { Route, Routes} from 'react-router-dom'
-import Rightbar from '../Layout/Rightbar'
+// import Rightbar from '../Layout/Rightbar'
 import MainLeft from './MainLeft'
 import Friends from '../Pages/Friends'
 import Events from '../Pages/Events'
@@ -8,10 +8,13 @@ import Groups from '../Pages/Groups'
 import Photos from '../Pages/Photos'
 import Timeline from '../Pages/Timeline'
 import Videos from '../Pages/Videos'
-
+import Navbar from './Navbar'
+import RightSideBar from '../Layout/RightSideBar'
 const MainContent = () => {
   return (
+
     <div className='MainContent'>
+      <Navbar/>
       <MainLeft />
        <Routes>          
           <Route path='/mainleft' element={<MainLeft />} />          
@@ -24,7 +27,8 @@ const MainContent = () => {
         </Routes>
             
       <div className="rightbar">
-        <Rightbar/>
+        <RightSideBar />
+        {/* <Rightbar/> */}
       </div>
     </div>
   )

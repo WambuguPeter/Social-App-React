@@ -115,3 +115,12 @@
 
     }
 }
+@media screen and (max-width:425px) {
+    .right-main-buttom{
+        display: flex;
+        width: auto;
+        .onUrMind{
+            width: 95%;
+        }
+    }
+}

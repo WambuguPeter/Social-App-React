@@ -35,3 +35,9 @@
         }
     }
 }
+@media screen and (max-width:425px) {
+    .GroupItems{
+        display: flex;
+        flex-direction: column;
+    }
+}

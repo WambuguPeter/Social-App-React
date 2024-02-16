@@ -15,7 +15,7 @@
             display: flex;            
             gap: 2rem;
             span{
-                font-size: 20px;
+                font-size: 16px;
                 
             }
         }
@@ -77,4 +77,46 @@
         }
     }
 
+}
+@media screen and (max-width:425px) {
+   .EventsPage{
+    width: 100%;
+    background-color: red;
+        h2{font-size: 18px;}
+        .header{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .leftSide{
+                display: flex;
+                border: 1px solid;
+                gap: 3rem;
+                // overflow: scroll;
+                // scroll-behavior: smooth;
+                align-self: center;
+                // width: 100%;
+
+                span{ 
+                    font-size: 14px;
+                    width: 100%;                 
+                    
+                }
+            }
+        }
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        .eventCard{
+            background-color: rgb(101, 247, 198);
+            display: flex;
+            flex-direction: column;
+            width: 98%;
+            
+        }
+    }
+
+   } 
 }

@@ -13,7 +13,7 @@ const Designs = () => {
         <div className="side-profile1">        
         <img src={design1} alt="nopic" />
         <div className="side-profile-text">
-          <h5>Website Design</h5>          
+          <h5>Web Design</h5>          
         </div>
       </div>
       <div className="side-profile1">        

@@ -1,6 +1,6 @@
 import '../styles/RecentVideo.scss'
 import avatar from '../assets/Avatar1.jpg'
-import cook from '../assets/cookvideo.png'
+import cook from '../assets/cook.png'
 
 
 const RecentVideo = () => {
@@ -19,10 +19,8 @@ const RecentVideo = () => {
                    with some of my friends, happy for that!</span>
               </div>
               <div className="videosPosted">
-                <video src=""></video>
-                <img src={cook} alt="nopic" />
-                
-                
+                {/* <video src=""></video> */}
+                <img src={cook} alt="nopic" /> 
               </div>
                           
             </div>

@@ -30,16 +30,15 @@ function Navbar() {
       <div className="nav-logo">
         <button >
           <BiMenu />
-        </button>
-     
+          {/* <BiMenu {onClick={toggleSidebar}} /> */}
+        </button>     
       
         <img src={logo} alt="nopic" />
-        <h2>Social-M-APP</h2>
-      </div>
-
+        <h2>Social-M</h2>
+      </div>      
       <div className="nav-body">
         <div  className="input1">
-          <img src={search} alt="" srcset="" />
+          <img src={search} />
           <input type="text" placeholder="search..." />
 
         </div>

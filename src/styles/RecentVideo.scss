@@ -19,24 +19,18 @@
 
         }
     }
-    .videosPosted{
-        margin-top: 10px;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        gap: 0.7rem;        
-        margin-bottom: 0px;
-        padding-bottom: 30px;
-        overflow-x: scroll;
-        scroll-behavior: smooth;
+    .activdescript{
+        margin-bottom: 1px;
+    }
+    .videosPosted{        
+        margin-top: 1px;
+        align-items: center;     
         
-        img{
+        img{            
+            margin-top: 1rem;
+            width: 100%;
             
-            width: 90%;
-            height: 120%; 
-            margin-left: 1px;
-            margin-right: 40px; 
-                                     
+                                                
         }                        
     }
 

@@ -94,14 +94,31 @@
   }
   
     }
-    }
-  
-  
-  
-  
-  @media (max-width: 768px) {
-    .friend {
+}
+}
+
+@media screen and (max-width:425px) {
+  .friends-page{
+    width: 100%;
+    .friends-list{
+      background-color: #6da9f8;
       width: 100%;
+      .friend{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
-}
+  
+}  
+  
+  
+  
+//   @media (max-width: 768px) {
+//     .friend {
+//       width: 100%;
+//     }
+//   }
+// }

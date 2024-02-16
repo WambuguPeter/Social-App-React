@@ -120,9 +120,9 @@ const Timeline = () => {
         </div>
         
       </div>
-    
-
-    <MainBottomRight />
+      <div className="MainBottomRight">
+        <MainBottomRight/>
+      </div>
     </div>
   )
 }

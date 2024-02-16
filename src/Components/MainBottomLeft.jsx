@@ -11,7 +11,7 @@ const MainBottomLeft = () => {
     <>
     <div className="left-main-buttom">
       <div className="profile-progress">
-        <ProfileCompletion completedItems={7} totalItems={10}/>
+        <ProfileCompletion completedItems={9} totalItems={10}/>
       </div>
       <div className="intro">
         <Intro />
@@ -24,6 +24,8 @@ const MainBottomLeft = () => {
           </button>
         </div>
         <div className="imgs">
+          <img src={photo3} alt="photo3" />
+          <img src={photo4} alt="photo4" />
           <img src={photo3} alt="photo3" />
           <img src={photo4} alt="photo4" />
         </div>

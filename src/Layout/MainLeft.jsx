@@ -6,17 +6,24 @@ import avatar1 from '../assets/Avatar1.jpg'
 const MainLeft = () => {
   return (
     <div>
-        <div className="leftmain">        
+      <div className="leftmain">        
         <button className='edit-profile' >Edit Proile</button>
         <img className='mainimg' src={bg} alt="nopic" />
-        <div className='avat'>
+        {/* <div className='avat'>
           <img src={avatar1} alt="nopic" />
-        </div>
-        
-        <div className="profile-data">
           <div className="profimg">
             <h4>Jonathan</h4>
             <span>@Jonathan</span>
+          </div>
+        </div> */}
+        
+        <div className="profile-data">
+          <div className='avat'>
+            <img src={avatar1} alt="nopic" />
+            <div className="profimg">
+              <h4>Jonathan</h4>
+              <span>@Jonathan</span>
+            </div>
           </div>
           <div className="prodetails">
             <button className="posts">Posts

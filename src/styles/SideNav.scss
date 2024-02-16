@@ -1,12 +1,21 @@
 .sidenav{
     display: flex;
     flex-direction: column;   
-    gap: 10px;
-    height: 90vh;
-    border-right: 1px solid rgb(245, 239, 239);
-    width: 190%;
-    margin-left: 10px;
-    background-color: rgb(217, 233, 248);
+    margin-top: 0px;
+    height: 100%;
+    border-right: 1px solid rgb(255, 248, 248);
+    width: 14%;
+    margin-left: 10px;    
+    background-color: rgb(224, 238, 252);
+    .nav-logo{
+      display: flex;
+      align-items: center;     
+      margin-bottom: 0px;
+      gap: 0.5rem;
+      button{
+        border: none;
+      }
+    }
         
     h4{
        font-size: 10px;
@@ -14,3 +23,28 @@
 
     
  }
+ /* SideNav.scss */
+.side-nav {
+  width: 250px; /* Width for desktop view */
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease;
+
+  &.open {
+    transform: translateX(-250px); /* Slide sidebar off screen for mobile view */
+  }
+}
+
+// @media (max-width: 768px) {
+//   .side-nav {
+//     width: 0; /* Hide sidebar by default on mobile */
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     z-index: 999;
+//     overflow-x: hidden;
+//   }
+
+//   .side-nav.open {
+//     width: 250px; /* Slide sidebar in on mobile when open */
+//   }
+// }
