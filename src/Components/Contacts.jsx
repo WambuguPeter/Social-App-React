@@ -9,7 +9,7 @@ const Contacts = () => {
     <div>
         <div className="contacts">
       <div className="headers">
-        <h5>CONTACT</h5>
+        <h4>CONTACT</h4>
         <button className='seeAll'>
         <p>See all</p>
         </button>
